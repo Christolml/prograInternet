@@ -1,3 +1,4 @@
+//---------------------FUNCIONES Y ARRAYS, Y EMISOR DE EVETOS
 
 // let util = require('util');
 
@@ -6,7 +7,7 @@
 // let greeting = util.format('Hi, %s',name);
 // util.log(greeting);
 
-/*eventos y emisor d eeventos, de esto esta basadi en un servidor web con node.js, la emision de
+/*eventos y emisor de eventos, de esto esta basado en un servidor web con node.js, la emision de
 eventos es la respuesta a un evento
 system events esta mas relacionados  a las interrupciones, mas relacionadas al sistema
 */

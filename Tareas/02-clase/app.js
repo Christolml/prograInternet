@@ -1,3 +1,5 @@
+//------------------REFERENCIAS EN FUNCIONES, IIFE funciones que se ejecutan luego luego
+
 // cuando se pasa por valor
 function change(b) {
     b=2;
@@ -21,7 +23,7 @@ console.log(c);
 
 
 //IIFE funciones que se ejecutan luego luego
-let firstname= 'Jane';
+let firstname = 'Jane';
     /*este se comporta como un modulo y tiene protegido el
     codigo con los parentesis al inicio y al final, esto es considerado como un IIFE */
 (function (lastname) {    

@@ -8,7 +8,7 @@ let Emitter = require('events');
 let eventConfig = require('./config').events;
 
 
-let emtr=new Emitter();
+let emtr = new Emitter();
 
 emtr.on(eventConfig.GREET, function() {
     console.log('Somewhere, someone said hello');
