@@ -1,26 +1,26 @@
 
-// let person = {
-//     firstname: '',
-//     lastname: '',
-//     greet: function() {
-//         return this.firstname + ' ' + this.lastname;
-//     }
-// }
+ let person = {
+     firstname: '',
+     lastname: '',
+     greet: function() {
+         return this.firstname + ' ' + this.lastname;
+     }
+ }
 
-// let Christo = Object.create(person);
-// Christo.firstname = 'Christopher';
-// Christo.lastname = 'Velazquez';
+ let Christo = Object.create(person);
+ Christo.firstname = 'Christopher';
+ Christo.lastname = 'Velazquez';
 
-// let ella = Object.create(person);
-// ella.firstname = 'Dana';
-// ella.lastname = 'Mora';
-
-
-// console.log(ella);
-// console.log(Christo);
+ let ella = Object.create(person);
+ ella.firstname = 'Dana';
+ ella.lastname = 'Mora';
 
 
-// se esta creando
+ console.log(ella);
+ console.log(Christo);
+
+
+// INHERITS
 
 
 let EventEmitter = require('events');
